@@ -1,0 +1,68 @@
+
+a {
+    text-decoration: none;
+}
+
+.button-large, .button-small {
+    display: flex;
+    width: auto;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.button-large-icon {
+    width: 6vw;
+    height: 6vh;
+    object-fit: contain;
+    
+}
+
+.button-large-text {
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+    
+}
+
+.button-small-icon {
+    width: 3vw;
+    height: 3vh;
+    object-fit: contain;
+    
+}
+
+.button-small-text {
+    color: black;
+    font-size: 1vw;
+    text-decoration: none;
+    
+}
+
+
+.button-large:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.button-small:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1024px){
+    .button-large-text {
+        
+        font-size: 3.5vw;
+
+        
+    }
+
+    .button-small-icon {
+        width: 4vw;
+        height: 4vh;
+    }
+
+    .button-small-text {
+        font-size: 2vw;
+    }
+}

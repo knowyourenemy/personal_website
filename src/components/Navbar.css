@@ -1,0 +1,171 @@
+.navbar {
+    
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar-container{
+    height: 100%;
+    background-color: black;
+    opacity: 1;
+  }
+  
+  .nav-menu {
+    display: flex;
+
+    list-style: none;
+    width: 100vw;
+    height: 100%;
+  
+  }
+  
+
+ 
+  .nav-links, .nav-icon-wrapper {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    width: 25vw;
+    height: 100%;
+    justify-content: center;
+    font-size: 2vw;
+
+
+    
+  }
+
+  .nav-item {
+    align-self: center;
+
+  
+  }
+
+  .nav-icon {
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+    align-self: center;
+  }
+  
+  .nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+  
+
+  
+  .nav-icon-wrapper-mobile {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  @media screen and (orientation: portrait) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 30vw;
+      height: 30vh;
+      position: absolute;
+      top: 8vh;
+      left: 100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+      display: none;
+      
+      
+    }
+  
+    .nav-menu.active {
+      background-color: rgba(255, 255, 255, 0.5);
+      
+      left: 70vw;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+      display: flex;
+      
+    }
+  
+    .nav-icon-wrapper-mobile {
+      display: flex;
+      color: black;
+      font-size: 1.8rem;
+      height: 8vh;
+      width: 100vw;
+      justify-content: space-between;
+      padding: 0 2vw;
+    }
+
+    .nav-icon-mobile {
+      width: auto;
+      height: 4vh;
+      object-fit: contain;
+      align-self: center;
+      
+      
+      z-index: 100000000000;
+    }
+
+
+    .nav-icon-wrapper {
+      display: none;
+    }
+
+    .nav-links {
+
+      width: 100%;
+      height: 15vh;
+      font-size: 4vh;
+      
+ 
+      
+      
+    }
+
+    .nav-item {
+      color: black;
+    }
+
+
+    .nav-icon-link {
+      display: none;
+    }
+
+  
+    .nav-links:hover {
+      border-radius: 0;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 1);
+
+    }
+
+    
+  
+   
+    .menu-icon {
+      cursor: pointer;
+      display: flex;
+      object-fit: contain;
+      align-self: center;
+    }
+
+    .fa-bars {
+      color: #fff;
+      font-size: 4vh;
+    }
+  
+    .fa-times {
+      color: #fff;
+      font-size: 4vh;
+    }
+
+  }

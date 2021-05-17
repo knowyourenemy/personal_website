@@ -1,0 +1,52 @@
+.projects-component {
+    background-image: url('../../assets/images/backgrounds/projects-background.png');
+    background-repeat:round;
+   
+    width: 100vw;
+    height: fit-content;
+    z-index: 0;
+}
+
+.projects-orbit {
+  width: 30vw;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 10vh;
+  z-index: 1;
+}
+
+
+.projects-header {
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+    color: white;
+    text-align: center;
+    font-size: 6vw;
+    z-index: 2;
+ 
+
+}
+
+
+.cards-row {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.card-wrapper {
+  margin: 1vw;
+  z-index: 2;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .cards-row {
+    flex-flow: column;
+  }
+  
+}
