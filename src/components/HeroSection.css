@@ -7,6 +7,8 @@
         display: flex;
         flex-flow: column;
         background-color: black;
+        
+        
 
        
     }
@@ -18,8 +20,8 @@
         flex-flow: column;
         position: relative;
         width: 100vw;
-        height: 100vh;
         align-content: flex-start;
+        height: 92vh;
 
     }
 
@@ -28,12 +30,12 @@
         vertical-align: middle;
         text-align: center;
         color: #fff;
-        top: 40vh; right: 0;
+        top: 33vh; right: 0;
 	    bottom: 0; left: 0;
     }
 
     .hero-header-mobile {
-        font-size: 10vw;
+        font-size: 16vw;
     }
 
     .hero-img {
@@ -45,6 +47,10 @@
       
         display: flex;
         flex-direction: column;
+        background-image: url('../assets/images/backgrounds/final-background.png');
+        background-size: cover;
+        background-repeat: round;
+        background-position: center;
    
 
     }
@@ -61,6 +67,9 @@
         padding: 0px;
         color: #fff;
         align-self:center;
+   
+        
+
     
     } 
     
@@ -69,8 +78,8 @@
         display: inline-flexbox;
         color: #fff;
         padding: 3vh 3vw;
-        font-size: 3vw;
-    
+        font-size: 5.5vw;
+        font-family: Gilroy-Medium;
        
     }
 
@@ -81,24 +90,12 @@
         padding-top: 1rem;
     }
 
-    .button-icon {
-        width: 6vw;
-        height: auto;
-        object-fit: cover;
-        
-    }
-
-    .button-text {
-        color: white;
-        font-size: 5vw;
-        text-decoration: none;
-        
-    }
 
     .ync-hacks-link {
       
         color: white;
         text-decoration: underline;
+        font-family: Gilroy-Medium;
     }
 
 
@@ -107,8 +104,10 @@
 
     @media screen and (orientation:landscape) {
         .real-hero-container {
+            
             display: flex;
             flex-flow: row;
+            
         }
         
         .hero-container {
@@ -116,8 +115,7 @@
             
             width: 40vw;
             display: flex;
-            
-            box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+
             
           
             
@@ -143,7 +141,8 @@
             width: 60vw;
             padding-left: 5vw;
             background-image: url('../assets/images/backgrounds/home-background.png');
-            background-size: cover;
+            background-size: contain;
+            background-repeat: round;
             padding-right: 10vw;
             justify-content: center;
            
@@ -165,6 +164,8 @@
             color: #fff;
             align-self:flex-start;
             line-height: normal;
+            font-family: Gilroy-Bold;
+            line-height: 100%;
             
           
         
@@ -177,6 +178,7 @@
             padding-top: 4vh;
             padding-bottom: 4vh;
             font-size: 2.5vw;
+            font-family: Gilroy-Medium;
             
          
 
@@ -208,6 +210,7 @@
           
             color: white;
             text-decoration: underline;
+            font-family: Gilroy-Medium;
         }
 
         

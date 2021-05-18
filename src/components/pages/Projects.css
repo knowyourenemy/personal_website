@@ -1,10 +1,13 @@
 .projects-component {
-    background-image: url('../../assets/images/backgrounds/projects-background.png');
+    background-image: url('../../assets/images/backgrounds/final-background.png');
     background-repeat:round;
-   
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: fit-content;
     z-index: 0;
+    position: relative;
 }
 
 .projects-orbit {
@@ -13,17 +16,21 @@
   position: absolute;
   left: 0;
   top: 10vh;
-  z-index: 1;
+  z-index: -1;
+  display:none;
 }
 
 
 .projects-header {
-    padding-top: 10vh;
-    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
     color: white;
     text-align: center;
     font-size: 6vw;
     z-index: 2;
+    font-family: Gilroy-Bold;
  
 
 }
@@ -34,19 +41,32 @@
     flex-flow: row;
     align-items: center;
     justify-content: center;
+    padding: 0 0 80px 0;
     z-index: 2;
 }
 
-.card-wrapper {
-  margin: 1vw;
-  z-index: 2;
-
+.cards-row-mobile {
+  display: none;
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (orientation: portrait) {
+
+  .projects-header {
+    height: 25vh;
+    font-size: 10vw;
+  }
 
   .cards-row {
-    flex-flow: column;
+    display: none;
   }
-  
+
+  .cards-row-mobile {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+      padding: 0 0 60px 0;
+      z-index: 2;
+  }
 }

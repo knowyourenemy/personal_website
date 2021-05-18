@@ -1,98 +1,151 @@
-  
-
-  
-  .card_wrapper {
-    align-items: center;
-    max-width: 1120px;
-    width: 70%;
-    margin: 5px;
-    background-color: white;
-    border-radius: 10px;
-  }
-  
-  
-  .card_link {
+.card-wrapper {
     display: flex;
-    flex-flow: column;
-    width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 10px;
-    overflow: hidden;
-    text-decoration: none;
-  }
-  
-  .cards__item__pic-wrap {
-    position: relative;
-    width: 100%;
-    padding-top: 67%;
-    overflow: hidden;
-  }
-  
-  .fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
-  }
-  
-  .cards__item__pic-wrap::after {
-    content: attr(data-category);
-    position: absolute;
-    bottom: 0;
-    margin-left: 10px;
-    padding: 6px 8px;
-    max-width: calc((100%) - 60px);
-    font-size: 12px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #1f98f4;
-    box-sizing: border-box;
-  }
-  
-  .card_img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    max-width: 100%;
+    flex-direction: row;
+    width: 80vw;
+    height: 16vw;
+    justify-self: center;
+    color: white;
+}
+
+.card-image-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
     height: 100%;
-    max-height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-image {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    border: 3px solid white;
     object-fit: cover;
-    transition: all 0.2s linear;
-  }
-  
-  .card_img:hover {
-    transform: scale(1.1);
-  }
-  
-  .card_info {
-    padding: 20px 30px 30px;
-  }
-  
-  .card_text {
-    color: #000;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-  }
-  
-  @media only screen and (min-width: 1200px) {
-    .content__blog__container {
-      width: 84%;
+    object-position: center;
+}
+
+.card-body-wrapper {
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    height: 100%;
+    padding-left: 0;
+}
+
+.card-upper-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid white;
+}
+
+.card-headers {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.card-header {
+    font-family: Gilroy-Medium;
+    font-size: 4vw;
+    line-height: 90%;
+}
+
+.card-year {
+    font-family: Gilroy-Medium;
+    font-size: 2.5vw;
+}
+
+.card-badges {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.card-badge {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: contain;
+    background-color: white;
+    margin: 0 0 0 10px;
+}
+
+.card-lower-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.card-description {
+    font-family: Gilroy-Medium;
+    font-size: 1.7vw;
+    padding-top: 6px;
+    width: 100%;
+    height: 50%;
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    padding-top: 20px;
+    justify-content: flex-start;
+    
+}
+
+
+
+@media screen and (orientation: portrait) {
+
+    .card-wrapper {
+        width: 90vw;
+        height: 50vw;
+        flex-direction: column;
     }
-  }
-  
-  @media only screen and (min-width: 1024px) {
-    .cards__items {
-      display: flex;
+
+    .card-body-wrapper {
+        width: 100%;
+        height: 100%;
+        
     }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .cards__item {
-      margin-bottom: 2rem;
+
+    .card-image-wrapper {
+        display: none;
+    }   
+    
+    .card-header {
+        font-size: 6vw;
     }
-  }
+    
+    .card-year {
+        font-size: 3.5vw;
+    }
+
+    .card-badge {
+        width: 6vw;
+        height: 6vw;
+        margin: 0 0 0 10px;
+    }
+    
+    .card-description {
+        font-size: 3vw;
+    }
+    
+}
+
+
+
+
+
+

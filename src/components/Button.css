@@ -1,13 +1,20 @@
 
-a {
-    text-decoration: none;
-}
 
-.button-large, .button-small {
+
+.button-large{
     display: flex;
     width: auto;
     align-items: center;
-    padding: 0px 0px;
+
+}
+
+.button-small {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: fit-content;
+    align-items: center;
+    padding-right: 20px;
 }
 
 .button-large-icon {
@@ -21,21 +28,25 @@ a {
     color: white;
     font-size: 2vw;
     text-decoration: none;
+    font-family: Gilroy-Medium;
     
 }
 
 .button-small-icon {
     width: 3vw;
-    height: 3vh;
+    height: 3vw;
     object-fit: contain;
     
 }
 
 .button-small-text {
-    color: black;
-    font-size: 1vw;
+    color: white;
+    font-size: 2vw;
     text-decoration: none;
-    
+    font-family: Gilroy-Bold;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;    
 }
 
 
@@ -50,19 +61,40 @@ a {
 }
 
 @media screen and (max-width: 1024px){
+ 
+
+  
+}
+
+@media screen and (orientation: portrait) {
+
     .button-large-text {
         
-        font-size: 3.5vw;
-
+        font-size: 5.5vw;
+        padding-left: 2vw;
         
+    }
+
+    .button-large-icon {
+        width: 6vw;
+        height: auto;
     }
 
     .button-small-icon {
-        width: 4vw;
-        height: 4vh;
+        width: 7vw;
+        height: 7vw;
+        object-fit: contain;
+        
     }
-
+    
     .button-small-text {
-        font-size: 2vw;
+        color: white;
+        font-size: 3vw;
+        text-decoration: none;
+        font-family: Gilroy-Bold;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;    
     }
+    
 }

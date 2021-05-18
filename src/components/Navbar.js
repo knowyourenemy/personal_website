@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css'
-import { Button } from './Button';
 import logo from '../assets/images/icons/logo.png'
+import menu_icon from '../assets/images/icons/menu-icon.png'
+import cross_icon from '../assets/images/icons/cross-icon.png'
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -27,15 +28,15 @@ function Navbar() {
 
     return (
         <>
-            <nav className="navbar">
+            <nav className={click ? 'navbar active' : 'navbar'}>
                 <div className="navbar-container">
 
                     <div className='nav-icon-wrapper-mobile'>
                         <img className='nav-icon-mobile' src={logo}>
                         </img>
-                        <div className='menu-icon' onClick={handleClick}>
-                            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-                        </div>
+                        <img className='menu-icon' src={click ? cross_icon : menu_icon} onClick={handleClick}>
+
+                        </img>
 
                     </div>
 
@@ -48,31 +49,31 @@ function Navbar() {
                         </div>
 
 
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <a href="#home" className='nav-links' onClick={closeMobileMenu}>
                             <div className='nav-item'>
-                                Home
+                                home
+                            </div>
+
+                        </a>
+
+
+                        <a href="#projects" className='nav-links' onClick={closeMobileMenu}>
+                            <div className='nav-item'>
+                                projects
                                 </div>
 
-                        </Link>
-
-
-                        <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
-                            <div className='nav-item'>
-                                Projects
-                                </div>
-
-                        </Link>
+                        </a>
 
 
             
 
 
-                        <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                        <a href="#contact" className='nav-links' onClick={closeMobileMenu}>
 
                             <div className='nav-item'>
-                                Contact
+                                contact
                             </div>
-                        </Link>
+                        </a>
 
 
                     </div>

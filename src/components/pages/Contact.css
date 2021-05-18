@@ -1,115 +1,138 @@
-
-@media screen and (orientation: landscape) {
     .contact-wrapper {
         width: 100vw;
         height: 92vh;
         display: flex;
-        flex-direction: row;
-        background-image: url('../../assets/images/backgrounds/contact-background.png');
-        background-repeat:round;
-    
-    }
-    
-    .contact-planet-wrapper {
-        width: fit-content;
-        height: 100%;
-    }
-    
-    .contact-planet-image {
-        width: 40vw;
-        height: 100%;
-        object-fit: cover;
-        object-position: right;
-    }
-    
-    .contact-text-wrapper {
-        color: white;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        font-size: 1.5vw;
-        width: fit-content;
-    }
+        background-image: url('../../assets/images/backgrounds/final-background.png');
+        background-size: contain;
+        background-repeat:round;
+        
     
-    .contact-email {
-        padding: 3vh 0;
     }
-    
-    .contact-linkedin {
-        padding: 3vh 0;
-    }
-    
-    .contact-instagram {
-        padding: 3vh 1vw;
-    }
-    
+
     .contact-header {
         color: white;
-        font-size: 5vw;
+        font-size: 6vw;
         display: flex;
         flex-direction: row;
         align-self: center;
         justify-content: center;
+        align-items: flex-end;
         width: 60vw;
-       
+        height: 25%;
+        font-family: Gilroy-Bold;
+        padding-top: 10vh;
+
     }
     
-    
-}
+ 
 
-@media screen and (orientation: portrait) {
-    .contact-wrapper {
-        width: 100vw;
-        height: 92vh;
+
+    .contact-paragraph {
+        color: white;
+        font-size: 2vw;
+        
+        text-align: center;
         display: flex;
-        flex-direction: column-reverse;
-        background-image: url('../../assets/images/backgrounds/contact-background.png');
-        background-repeat:round;
-    
-    }
-    
-    .contact-planet-image {
-        width: 100vw;
-        height: 40vh;
-        object-fit: cover;
-        object-position: top;
-        content: url('../../assets/images/backgrounds/contact-sun-rotated.png');
-
-       
+        justify-content: center;
+        justify-self: center;
+        height: 15%;
+        align-items: flex-start;
+        padding: 0 17vw;
+        font-family: Gilroy-Medium;
 
     }
+
+    .contact-image-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+    }
+
     
-    .contact-text-wrapper {
+    
+    .contact-links {
         color: white;
         display: flex;
         flex-direction: row;
         width: 100%;
-       
+        height: 20%;
+        
         justify-content: center;
-        font-size: 3vw;
+        font-size: 2.5vw;
+        align-items: flex-end;
+        text-decoration: underline;
+        
         
     }
 
-    .contact-email {
-        
-     
-        padding: 3vh 3vw 0 3vw;
+    .contact-email, .contact-github, .contact-linkedin{
+        font-family: Gilroy-Medium;
+    }
 
-    
-    }
-    
-    .contact-linkedin {
-        padding: 3vh 3vw 0 3vw;
- 
-    
-    }
-    
-    .contact-instagram {
-        padding: 0 3vw;
-     
+    .contact-email:hover, .contact-github:hover, .contact-linkedin:hover{
+        transform: scale(1.2);
+        transition: all 0.2s ease-in-out;
     }
     
   
+
+    .contact-email {
+       
+        padding: 0 3vw;
+     
+       
+
+    
+    }
+
+ 
+    .contact-linkedin {
+        
+        padding: 0 3vw 2vh 3vw;
+    }
+    
+    .contact-github { 
+        
+        padding: 0 3vw;
+        
+    }
+
+    .contact-planet-image {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 80%;
+        object-fit: cover;
+        object-position: top;
+        content: url('../../assets/images/backgrounds/contact-sun-rotated.png');
+
+    }
+    
+  
+
+    @media screen and (orientation: portrait) {
+
+        .contact-header {
+            font-size: 10vw;
+            height: 25%;
+        }
+
+        .contact-paragraph {
+            font-size: 2.5vh;
+            height: 25%;
+        }
+        
+        .contact-image-wrapper {
+            height: 50%;
+        }
+
+        .contact-links {
+            font-size: 6vw;
+        }
+
+     
+    }
     
  
    
@@ -117,5 +140,5 @@
     
     
     
-}
+
 
