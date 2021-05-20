@@ -7,82 +7,29 @@ Hello! Welcome to my personal website!
 </h1>
 
 <p align="center">
-This is my first attempt at creating a website using React.js.
+https://www.aadipatwari.com
+  
+## Introduction
+As I have little experience with web development, this project required me to learn html, css, and the React.js framework. I designed all the components without using any external library like Material UI, and almost exclusively used the flex display type for all of them. While I was originally planning to do this throughout my summer break, I ended up completing it in less than 2 weeks!
 
-# Things I am proud of
-
-1. Responsive Design
+## Responsive Design
 I worked hard to ensure that the website looks good regardless of the screen it is viewed in. For example, this is how the home and project pages look like when viewed in a landscape screen:
- <img width="800" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/home-landscape.png" alt="Website home page landscape">
- <img width="800" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/projects-landscape.png" alt="Website projects page landscape">
+ <div>
+  <img width="800" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/home-landscape.png" alt="Website home page    landscape">
+  <img width="800" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/projects-landscape.png" alt="Website projects page landscape">
+</div>
 
 And this is how they look when viewed in a portriat screen:
- <img width="200" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/home-portrait.png" alt="Website home page portrait">
- <img width="200" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/projects-portrait.png" alt="Website projects page portriat">
+<div>
+  <img width="200" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/home-portrait.png" alt="Website home page portrait">
+  <img width="200" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/projects-portrait.png" alt="Website projects page portriat">
+</div>
 
-## Available Scripts
+## Future Plans
+I plan to add an 'experiences' section which will display my education and work experiences, and an 'interests section' which will elaborate on my passion for animals and music, and possibly even include a photo gallery.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+This project would not have been possible without:
+1. Ruth Lim — Helped with the UI design
+2. Leonard Tng – Helped with hosting it on AWS
+3. Ethan Chan – Helped review it
