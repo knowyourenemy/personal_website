@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 90vw;
     height: 60vw;
-    color: white;
 }
 
 .card-mobile-upper-section {
@@ -25,7 +24,7 @@
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 5px solid white;
     object-fit: cover;
     object-position: center;
 }
@@ -35,12 +34,13 @@
     flex-direction: column;
     width: 66.6%;
     height: 100%;
+    padding-top: 1.5vh;
 }
 
 .card-mobile-header {
     font-family: Gilroy-Medium;
     font-size: 7.5vw;
-    line-height: 95%;
+   
  
 }
 
@@ -54,13 +54,13 @@
     display: flex;
     flex-direction: row;
     height: 100%;
-    align-items: flex-end;
-    padding-bottom: 15px;
+    align-items: center;
 }
 
 .card-mobile-badge {
-    width: 8vw;
-    height: 8vw;
+    width: 7vw;
+    height: 7vw;
+    padding: 1vw 1vw;
     border-radius: 50%;
     object-position: center;
     object-fit: contain;
@@ -89,5 +89,5 @@
     justify-content: flex-start;
     height: 100%;
     justify-content:space-evenly;
-    
+    padding-top: 10px;
 }

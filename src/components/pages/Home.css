@@ -1,2 +1,132 @@
+.home-wrapper {
+    display: flex;
+    flex-flow: row;
+}
+
+.home-image-wrapper {
+    height: 92vh;
+    width: 40vw;
+    display: flex;
+    flex-flow: row;
+}
+
+.home-image {
+    width: 100%;
+    object-position: top;
+    object-fit: cover;
+    justify-self: flex-start;
+}
+
+.home-texts {
+    display: flex;
+    flex-flow: column;
+    width: 60vw;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    justify-content: center;   
+}
+
+.home-headers-wrapper {
+    display: flex;
+    flex-flow: column;
+}
+
+.home-header {
+    font-size: 10vw;
+    display: flex;
+    align-self:flex-start;
+    line-height: normal;
+    font-family: Gilroy-Bold;
+    line-height: 100%;
+} 
+
+.home-text {
+    display: inline-flexbox;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    font-size: 2.5vw;
+    font-family: Gilroy-Medium;
+}
+
+.home-header-mobile {
+    display: none;
+}
+
+.home-headers-wrapper-mobile {
+    display: none;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;      
+}
+
+.ync-hacks-link {
+    text-decoration: underline;
+    font-family: Gilroy-Medium;
+}
 
 
+
+@media screen and (orientation:portrait) {
+
+    .home-wrapper {
+        flex-flow: column;   
+    }
+
+    .home-image-wrapper{
+        flex-flow: column;
+        position: relative;
+        width: 100vw;
+        align-content: flex-start;
+    }
+
+    .home-image {
+        height: 100%;
+        object-position: center;
+        justify-self: center;
+    }
+
+    .home-headers-wrapper-mobile {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        vertical-align: middle;
+        text-align: center;
+        top: 33vh; right: 0;
+        bottom: 0; left: 0;
+    }
+
+    .home-header-mobile {
+        display: flex;
+        font-size: 16vw;
+        justify-content: center;
+    }
+
+    .home-headers-wrapper {
+        display: none;
+    }
+
+    .home-header {
+        display: none;
+    } 
+
+    .home-texts {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100vw;
+    }
+
+    .home-text {
+        text-align: center;
+        padding: 3vh 3vw;
+        font-size: 5.5vw;
+    }
+
+    .home-buttons {
+        justify-content: space-evenly;
+       
+    }
+}
+    

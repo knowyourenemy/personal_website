@@ -5,17 +5,17 @@
   font-family: Gilroy-Bold;
   scroll-behavior: smooth;
   scroll-margin-top: 8vh;
-  
-  
-
+  color: white;
 }
 
 
 .main-app {
   display: flex;
   flex-direction: column;
+  background-image: url('assets/images/backgrounds/final-background.png');
+  background-position: center;
+  background-repeat: repeat;
 }
-
 
 a:hover {
   cursor: pointer;
@@ -31,11 +31,6 @@ a {
 }
 
 @font-face {
-  font-family: 'Gilroy-Light';
-  src: url('assets/fonts/Gilroy-Light.ttf');
-}
-
-@font-face {
   font-family: 'Gilroy-Bold';
   src: url('assets/fonts/Gilroy-Bold.ttf');
 }
@@ -43,9 +38,4 @@ a {
 @font-face {
   font-family: 'Gilroy-Medium';
   src: url('assets/fonts/Gilroy-Medium.ttf');
-}
-
-@font-face {
-  font-family: 'Gilroy-Regular';
-  src: url('assets/fonts/Gilroy-Regular.ttf');
 }

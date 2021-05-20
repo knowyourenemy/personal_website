@@ -1,3 +1,11 @@
+<p align="center">
+  <img width="152" src="https://github.com/virtuoso98/personal-website/blob/main/public/logo152.png" alt="Website Logo - Zeta!">
+  
+</p>
+<h1>
+LOL
+</h1>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
