@@ -19,7 +19,7 @@ I worked hard to ensure that the website looks good regardless of the screen it 
   <img width="800" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/projects-landscape.png" alt="Website projects page landscape">
 </div>
 
-And this is how they look when viewed in a portriat screen:
+And this is how they look when viewed in a portrait screen:
 <div>
   <img width="200" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/home-portrait.png" alt="Website home page portrait">
   <img width="200" src="https://github.com/knowyourenemy/personal_website/blob/master/src/assets/images/screenshots/projects-portrait.png" alt="Website projects page portriat">
