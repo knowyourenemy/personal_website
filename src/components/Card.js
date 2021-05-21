@@ -8,13 +8,13 @@ function Card(props) {
 
     const badgeArray = props.badges;
     const badgeItems = badgeArray.map((badgeURL) => {
-        return <img className='card-badge' src={badgeURL} key={badgeURL}></img>
+        return <img className='card-badge' src={badgeURL} key={badgeURL} alt='badge'></img>
     });
 
     return (
         <div className='card-wrapper'>
             <div className='card-image-wrapper'>
-                <img className='card-image' src={props.src} alt="project image">
+                <img className='card-image' src={props.src} alt="project">
                 </img>
             </div>
             <div className='card-body-wrapper'>

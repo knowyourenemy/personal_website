@@ -8,14 +8,14 @@ function CardMobile(props) {
 
     const badgeArray = props.badges;
     const badgeItems = badgeArray.map((badgeURL) => {
-        return <img className='card-mobile-badge' src={badgeURL} key={badgeURL}></img>
+        return <img className='card-mobile-badge' src={badgeURL} key={badgeURL} alt='badge'></img>
     });
 
     return (
         <div className='card-mobile-wrapper'>
             <div className='card-mobile-upper-section'>
                 <div className='card-mobile-image-wrapper'>
-                    <img className='card-mobile-image' src={props.src} alt="project image">
+                    <img className='card-mobile-image' src={props.src} alt='project'>
                     </img>
                 </div>
                 <div className='card-mobile-headers'>

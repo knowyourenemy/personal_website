@@ -40,7 +40,7 @@
 .card-mobile-header {
     font-family: Gilroy-Medium;
     font-size: 7.5vw;
-   
+    white-space: nowrap;
  
 }
 

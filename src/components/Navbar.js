@@ -18,7 +18,7 @@ function Navbar() {
             </div>
             <div className={click ? 'nav-menu active' : 'nav-menu'}>
                 <div className='nav-icon-wrapper'>
-                    <img className='nav-icon' src={logo}></img>
+                    <img className='nav-icon' src={logo} alt='logo'></img>
                 </div>
                 <a href="#home" className='nav-links' onClick={closeMobileMenu}>
                     <div className='nav-item'>

@@ -8,12 +8,12 @@ import resume from "../../assets/documents/Aaditya-Resume-200521.pdf";
 
 function Home() {
 
-    const ync_hacks = <a href='https://github.com/YNC-Hacks' className='ync-hacks-link' target="_blank">YNC Hacks</a>
+    const ync_hacks = <a href='https://github.com/YNC-Hacks' className='ync-hacks-link' target="_blank" rel='noreferrer'>YNC Hacks</a>
 
     return (
         <div className='home-wrapper' id="home">
             <div className='home-image-wrapper'>
-                <img src={avatar} className='home-image'></img>
+                <img src={avatar} className='home-image' alt='avatar'></img>
                 <div className='home-headers-wrapper-mobile'>
                     <h1 className='home-header-mobile'>hello!</h1>
                     <h1 className='home-header-mobile'>i'm aadi.</h1>

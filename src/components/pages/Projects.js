@@ -87,12 +87,12 @@ function Projects() {
                 <ul className='cards-row'>
                 <Card
                     src={personal_website_v1_image}
-                    header='Personal Website V1'
+                    header='Personal Website'
                     year='2021'
                     body="A responsive personal website developed using React.js and hosted on AWS S3 during my summer break in 2021."
                     projectURL='https://aadityapatwari.com/'
                     codeURL='https://github.com/knowyourenemy/personal_website'
-                    badges={[react_icon, html5_icon, css3_icon, javascript_icon, aws_s3_icon]}
+                    badges={[react_icon, html5_icon, css3_icon, aws_s3_icon]}
                 />
                 </ul>
             </div>
@@ -160,7 +160,7 @@ function Projects() {
                     body="A responsive personal website developed using React.js and hosted on AWS S3 during my summer break in 2021."
                     projectURL='https://aadipatwari.com/'
                     codeURL='https://github.com/knowyourenemy/personal_website'
-                    badges={[react_icon, html5_icon, css3_icon, javascript_icon, aws_s3_icon]}
+                    badges={[react_icon, html5_icon, css3_icon, aws_s3_icon]}
                 />
                 </ul>
             </div>
