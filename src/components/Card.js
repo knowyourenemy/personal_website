@@ -14,7 +14,7 @@ function Card(props) {
     return (
         <div className='card-wrapper'>
             <div className='card-image-wrapper'>
-                <img className='card-image' src={props.src}>
+                <img className='card-image' src={props.src} alt="project image">
                 </img>
             </div>
             <div className='card-body-wrapper'>

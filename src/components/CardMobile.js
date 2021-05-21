@@ -15,7 +15,7 @@ function CardMobile(props) {
         <div className='card-mobile-wrapper'>
             <div className='card-mobile-upper-section'>
                 <div className='card-mobile-image-wrapper'>
-                    <img className='card-mobile-image' src={props.src}>
+                    <img className='card-mobile-image' src={props.src} alt="project image">
                     </img>
                 </div>
                 <div className='card-mobile-headers'>

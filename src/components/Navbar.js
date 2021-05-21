@@ -13,8 +13,8 @@ function Navbar() {
     return (
         <nav className={click ? 'navbar active' : 'navbar'}>
             <div className='nav-icon-wrapper-mobile'>
-                <img className='nav-icon-mobile' src={logo}></img>
-                <img className='menu-icon' src={click ? cross_icon : menu_icon} onClick={handleClick}></img>
+                <img className='nav-icon-mobile' src={logo} alt='logo'></img>
+                <img className='menu-icon' src={click ? cross_icon : menu_icon} onClick={handleClick} alt='menu icon'></img>
             </div>
             <div className={click ? 'nav-menu active' : 'nav-menu'}>
                 <div className='nav-icon-wrapper'>

@@ -10,10 +10,10 @@ function Connect() {
             <div className='connect-image-wrapper'>
                 <div className='connect-links'>
                     <a className='connect-email' href='mailto:aadipatwari@gmail.com' target='_blank'>Email</a>
-                    <a className='connect-linkedin' href='https://www.linkedin.com/in/aaditya-patwari' target='_blank'>Linkedin</a>
+                    <a className='connect-linkedin' href='https://www.linkedin.com/in/aaditya-patwari' target='_blank'>LinkedIn</a>
                     <a className='connect-github' href='https://www.github.com/knowyourenemy' target='_blank'>GitHub</a>
                 </div>
-                <img className='connect-planet-image' src={connect_sun_image}></img>
+                <img className='connect-planet-image' src={connect_sun_image} alt="picutre of a sun"></img>
             </div>
         </div>
     )
