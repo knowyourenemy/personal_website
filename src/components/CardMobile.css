@@ -81,6 +81,7 @@
     font-size: 4vw;
     width: 100%;
     height: fit-content;
+    text-align: justify;
 }
 
 .card-mobile-buttons {

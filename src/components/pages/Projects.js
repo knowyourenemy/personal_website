@@ -13,7 +13,7 @@ import unity_icon from '../../assets/images/icons/unity-icon.png'
 import csharp_icon from '../../assets/images/icons/csharp-icon.svg'
 import processing_icon from '../../assets/images/icons/processing-icon.jpeg'
 import javascript_icon from '../../assets/images/icons/javascript-icon.png'
-import aws_s3_icon from '../../assets/images/icons/aws-s3-icon.svg'
+import aws_icon from '../../assets/images/icons/aws-icon.png'
 import ballistics_image from '../../assets/images/projects/ballistics.png'
 import escape_earth_image from '../../assets/images/projects/escape-earth.png'
 import sentry_image from '../../assets/images/projects/sentry.png'
@@ -89,10 +89,10 @@ function Projects() {
                     src={personal_website_v1_image}
                     header='Personal Website'
                     year='2021'
-                    body="A responsive personal website developed using React.js and hosted on AWS S3 during my summer break in 2021."
+                    body="A responsive personal website developed using React.js and hosted on Amazon Web Services (AWS) during my summer break in 2021."
                     projectURL='https://aadityapatwari.com/'
                     codeURL='https://github.com/knowyourenemy/personal_website'
-                    badges={[react_icon, html5_icon, css3_icon, aws_s3_icon]}
+                    badges={[react_icon, html5_icon, css3_icon, aws_icon]}
                 />
                 </ul>
             </div>
@@ -157,10 +157,10 @@ function Projects() {
                     src={personal_website_v1_image}
                     header='Personal Website'
                     year='2021'
-                    body="A responsive personal website developed using React.js and hosted on AWS S3 during my summer break in 2021."
+                    body="A responsive personal website developed using React.js and hosted on Amazon Web Services (AWS) during my summer break in 2021."
                     projectURL='https://aadipatwari.com/'
                     codeURL='https://github.com/knowyourenemy/personal_website'
-                    badges={[react_icon, html5_icon, css3_icon, aws_s3_icon]}
+                    badges={[react_icon, html5_icon, css3_icon, aws_icon]}
                 />
                 </ul>
             </div>

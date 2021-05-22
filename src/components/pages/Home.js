@@ -4,7 +4,7 @@ import { Button } from '../Button';
 import avatar from '../../assets/images/aadi.jpeg';
 import mail_icon from '../../assets/images/icons/mail-icon.png';
 import resume_icon from '../../assets/images/icons/resume-icon.png';
-import resume from "../../assets/documents/Aaditya-Resume-200521.pdf";
+import resume from "../../assets/documents/Aaditya-Resume-220521.pdf";
 
 function Home() {
 
