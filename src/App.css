@@ -26,11 +26,6 @@ a {
 }
 
 @font-face {
-  font-family: 'Gilroy-Heavy';
-  src: url('assets/fonts/Gilroy-Heavy.ttf');
-}
-
-@font-face {
   font-family: 'Gilroy-Bold';
   src: url('assets/fonts/Gilroy-Bold.ttf');
 }
