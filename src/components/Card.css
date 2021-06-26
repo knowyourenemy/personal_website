@@ -13,6 +13,7 @@
     height: 100%;
     justify-content: flex-start;
     align-items: center;
+    
 }
 
 .card-image {
@@ -22,6 +23,7 @@
     border: 5px solid white;
     object-fit: cover;
     object-position: center;
+    background-color: white;
 }
 
 .card-body-wrapper {

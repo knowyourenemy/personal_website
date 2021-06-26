@@ -79,7 +79,7 @@
     .home-image-wrapper{
         flex-flow: column;
         position: relative;
-        width: 100vw;
+        width: 100%;
         align-content: flex-start;
     }
 
@@ -116,7 +116,7 @@
     .home-texts {
         padding-left: 0;
         padding-right: 0;
-        width: 100vw;
+        width: 100%;
     }
 
     .home-text {

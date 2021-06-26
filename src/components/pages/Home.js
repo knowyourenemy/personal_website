@@ -4,11 +4,11 @@ import { Button } from '../Button';
 import avatar from '../../assets/images/aadi.jpeg';
 import mail_icon from '../../assets/images/icons/mail-icon.png';
 import resume_icon from '../../assets/images/icons/resume-icon.png';
-import resume from "../../assets/documents/Aaditya-Resume-220521.pdf";
+import resume from "../../assets/documents/Aaditya-Resume-260621.pdf";
 
 function Home() {
 
-    const ync_hacks = <a href='https://github.com/YNC-Hacks' className='ync-hacks-link' target="_blank" rel='noreferrer'>YNC Hacks</a>
+    const ync_hacks = <a href='https://www.linkedin.com/company/ync-hacks/' className='ync-hacks-link' target="_blank" rel='noreferrer'>YNC Hacks</a>
 
     return (
         <div className='home-wrapper' id="home">

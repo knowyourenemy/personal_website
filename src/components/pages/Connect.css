@@ -1,5 +1,4 @@
 .connect-wrapper {
-    width: 100vw;
     height: 92vh;
     display: flex;
     flex-direction: column;
@@ -71,7 +70,6 @@
 .connect-planet-image {
     display: flex;
     flex-direction: column;
-    width: 100vw;
     height: 80%;
     object-fit: cover;
     object-position: top;

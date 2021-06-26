@@ -27,6 +27,7 @@
     border: 5px solid white;
     object-fit: cover;
     object-position: center;
+    background-color: white;
 }
 
 .card-mobile-headers {
