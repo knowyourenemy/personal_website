@@ -10,7 +10,7 @@ Hello! Welcome to my personal website!
 https://www.aadipatwari.com
   
 ## Introduction
-As I have little experience with web development, this project required me to learn html, css, and the React.js framework. I designed all the components without using any external library like Material UI, and almost exclusively used the flex display type for all of them. While I was originally planning to do this throughout my summer break, I ended up completing it in less than 2 weeks!
+As I have little experience with web development, this project required me to learn html, css, and the React.js framework. While I was originally planning to do this throughout my summer break, I ended up completing it in less than 2 weeks!
 
 ## Responsive Design
 I worked hard to ensure that the website looks good regardless of the screen it is viewed in. For example, this is how the home and project pages look like when viewed in a landscape screen:
