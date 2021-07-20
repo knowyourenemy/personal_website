@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 90vw;
     height: 60vw;
+    box-sizing: border-box;
 }
 
 .card-mobile-upper-section {
@@ -11,6 +12,7 @@
     width: 100%;
     height: 50%;
     border-bottom: 2px solid white;
+    box-sizing: border-box;
 }
 
 .card-mobile-image-wrapper {
@@ -18,6 +20,7 @@
     flex-direction: column;
     width: 33.3%;
     height: 100%;
+    
 }
 
 .card-mobile-image {
@@ -28,6 +31,7 @@
     object-fit: cover;
     object-position: center;
     background-color: white;
+    box-sizing: border-box;
 }
 
 .card-mobile-headers {
@@ -36,12 +40,14 @@
     width: 66.6%;
     height: 100%;
     padding-top: 1.5vh;
+    box-sizing: border-box;
 }
 
 .card-mobile-header {
     font-family: Gilroy-Medium;
     font-size: 7vw;
     white-space: nowrap;
+    
 }
 
 .card-mobile-year {
@@ -55,6 +61,7 @@
     flex-direction: row;
     height: 100%;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .card-mobile-badge {
@@ -66,6 +73,7 @@
     object-fit: contain;
     background-color: white;
     margin-right: 10px;
+    box-sizing: border-box;
 }
 
 .card-mobile-lower-section {
@@ -73,7 +81,8 @@
     flex-direction: column;
     width: 100%;
     height: 50%;
-    padding-top: 10px
+    padding-top: 10px;
+    box-sizing: border-box;
 }
 
 .card-mobile-description {

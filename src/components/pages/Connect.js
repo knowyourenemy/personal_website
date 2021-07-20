@@ -1,6 +1,7 @@
 import React from 'react'
 import './Connect.css'
 import connect_sun_image from '../../assets/images/backgrounds/sun-red.png'
+import Slide from 'react-reveal/Slide'
 
 function Connect() {
     return (
@@ -13,7 +14,9 @@ function Connect() {
                     <a className='connect-linkedin' href='https://www.linkedin.com/in/aaditya-patwari' target='_blank' rel='noreferrer'>LinkedIn</a>
                     <a className='connect-github' href='https://www.github.com/knowyourenemy' target='_blank' rel='noreferrer'>GitHub</a>
                 </div>
-                <img className='connect-planet-image' src={connect_sun_image} alt="picutre of a sun"></img>
+                <Slide bottom duration={2000}>
+                    <img className='connect-planet-image' src={connect_sun_image} alt="picutre of a sun"></img>
+                </Slide>
             </div>
         </div>
     )

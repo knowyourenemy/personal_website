@@ -24,6 +24,7 @@
     object-fit: cover;
     object-position: center;
     background-color: white;
+    box-sizing: border-box;
 }
 
 .card-body-wrapper {
@@ -69,6 +70,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .card-badge {
@@ -80,6 +82,8 @@
     object-fit: contain;
     background-color: white;
     margin: 0 0 0 10px;
+    box-sizing: border-box;
+    
 }
 
 .card-lower-section {

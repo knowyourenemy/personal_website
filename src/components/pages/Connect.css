@@ -2,6 +2,7 @@
     height: 92vh;
     display: flex;
     flex-direction: column;
+    overflow-y: hidden;
 }
 
 .connect-header {
@@ -15,6 +16,7 @@
     height: 25%;
     font-family: Gilroy-Bold;
     padding-top: 10vh;
+    box-sizing: border-box;
 }
 
 .connect-paragraph {

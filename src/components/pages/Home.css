@@ -23,7 +23,8 @@
     width: 60vw;
     padding-left: 5vw;
     padding-right: 10vw;
-    justify-content: center;   
+    justify-content: center;
+    box-sizing: border-box;   
 }
 
 .home-headers-wrapper {

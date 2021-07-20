@@ -30,6 +30,11 @@ function Navbar() {
                         projects
                     </div>
                 </a>
+                <a href="#interests" className='nav-links' onClick={closeMobileMenu}>
+                    <div className='nav-item'>
+                        interests
+                    </div>
+                </a>
                 <a href="#connect" className='nav-links' onClick={closeMobileMenu}>
                     <div className='nav-item'>
                         connect

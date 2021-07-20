@@ -1,0 +1,434 @@
+.interests-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    
+}
+
+.interests-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    font-size: 6vw;
+}
+
+.music-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.music-header, .dogs-header {
+    font-size: 4vw;
+}
+
+.dogs-header{
+    margin-top: 80px
+}
+
+.music-description, .dogs-description {
+    font-family: Gilroy-Medium;
+    font-size: 2vw;
+    text-align: justify;
+    
+}
+
+.turntable-container {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    align-self: center;
+    margin: 80px 0 40px 0;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.turntable-wrapper {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background-image: url(../../assets/images/interests/music/turntable.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.needle-image {
+    width: auto; 
+    height: 180px;
+    position: absolute;
+    left: 215px;
+    top: 35px;
+    transform-origin: 90% 0%;
+    transform: rotate(-20deg);
+    
+}
+
+.turntable-instructions {
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    top: 120px;
+    left: 75px;
+    font-family: Gilroy-Medium;
+    font-size: 25px;
+    
+}
+
+.catalog-instructions {
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    text-align: center;
+}
+
+.selected-record-image {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50px;
+    top: 50px
+}
+
+.animate-needle {
+    animation: rotateneedle 1s forwards;
+}
+
+.animate-record {
+    animation: rotaterecord 1s linear infinite;
+  }
+
+
+
+.record-catalog {
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(192, 192, 192, 0.5);
+}
+
+.record-img {
+    width: 135px;
+    height: 135px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.selected-record {
+    border: 5px solid white;
+}
+
+.concert-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    position: relative;
+    align-self: center;
+    background-color: rgba(192, 192, 192, 0.3);
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.concert-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ 
+}
+
+.concert-title {
+    text-align: center;
+    font-size: 25px;
+    font-family: Gilroy-Medium;
+    margin-top: 10px;
+}
+
+.concert-description {
+    font-family: Gilroy-Medium;
+    font-size: 20px;   
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.dogs-wrapper {
+    width: 80vw;
+   
+}
+
+.dog-images-container {
+    max-height: 300vh;
+    overflow: auto;
+
+}
+
+.space-dog-image {
+    width: 80px;
+    height: auto;
+}
+
+
+
+
+
+@media screen and (orientation: portrait) {
+    .interests-header {
+      height: 25vh;
+      font-size: 10vw;
+    }
+
+    .dogs-header, .music-header {
+        font-size: 7vw;
+    }
+
+    .music-description, .dogs-description{
+        font-size: 4vw;
+    }
+
+    .music-wrapper {
+        width: 90vw;
+    }
+
+    .dogs-wrapper {
+        width: 90vw;
+    }
+
+ 
+}
+
+@media screen and (max-width: 1150px) {
+    
+
+
+
+
+    .turntable-container {
+        width: 650px;
+    }
+
+    .turntable-wrapper {
+        width: 250px;
+        height: 250px;
+    }
+
+    .selected-record-image {
+        width: 180px;
+        height: 180px;
+        top: 35px;
+        left: 35px;
+    }
+
+    .needle-image {
+        height: 120px;
+        left: 160px;
+        top: 25px;
+        transform-origin: 92% 5%;
+    }
+
+    .turntable-instructions {
+        width: 150px;
+        top: 75px;
+        left: 50px;
+        font-size: 20px;  
+    }
+    
+    .catalog-instructions {
+        font-size: 15px;
+    }
+
+    .record-catalog {
+        width: 400px;
+    }
+
+    .record-img {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    .concert-wrapper {
+        width: 650px;
+    }
+
+    .concert-title {
+        font-size: 23px;
+    }
+    
+    .concert-description {
+        font-size: 18px;   
+    }
+
+    .space-dog-image {
+        width: 70px;
+    }
+    
+}
+
+@media screen and (max-width: 850px) {
+
+    .turntable-container, .concert-wrapper {
+        width: 500px;
+    }
+
+    .turntable-container {
+        flex-direction: column;
+        
+    }
+
+    .turntable-wrapper {
+        width: 500px;
+        height: 500px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 20px;
+    }
+
+    .selected-record-image {
+        width: 350px;
+        height: 350px;
+        left: 75px;
+        top: 75px
+    }
+
+    .needle-image {
+        height: 280px;
+        left: 300px;
+        top: 45px;
+        transform-origin: 92% 5%;
+    }
+
+    .record-catalog {
+        width: 500px;
+    }
+
+    .record-img {
+        width: 135px;
+        height: 135px;
+        margin: 10px;
+    }
+
+    .turntable-instructions {
+        width: 300px;
+        top: 220px;
+        left: 100px;
+        font-size: 25px;  
+    }
+    
+    .catalog-instructions {
+        font-size: 20px;
+    }
+
+    .concert-title {
+        font-size: 20px;
+    }
+    
+    .concert-description {
+        font-size: 15px;   
+    }
+
+    .space-dog-image {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+
+
+ 
+    .turntable-container, .concert-wrapper {
+        width: 280px;
+    }
+
+    .turntable-container {
+        flex-direction: column;
+        margin: 40px 0;
+    }
+
+    .turntable-wrapper {
+        
+        width: 280px;
+        height: 280px;
+        
+    }
+
+    .selected-record-image {
+        width: 180px;
+        height: 180px;
+        left: 50px;
+        top: 50px
+    }
+
+    .needle-image {
+        height: 150px;
+        left: 172px;
+        top: 25px;
+        transform-origin: 92% 5%;
+    }
+
+    
+
+    .record-catalog {
+        width: 280px;
+    }
+
+    .record-img {
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+    }
+
+    .turntable-instructions {
+        width: 180px;
+        top: 100px;
+        left: 50px;
+        font-size: 20px;  
+    }
+    
+    .catalog-instructions {
+        font-size: 15px;
+        
+    }
+
+    .concert-title {
+        font-size: 16px;
+    }
+    
+    .concert-description {
+        font-size: 14px;   
+    }
+
+    .space-dog-image {
+        width: 50px;
+    }
+
+    
+
+
+    
+}
+
+@keyframes rotateneedle {
+    from {
+      transform: rotate(-20deg);
+    }
+    to {
+      transform: rotate(-5deg);
+    }
+}
+
+@keyframes rotaterecord {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+    
+}

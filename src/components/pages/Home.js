@@ -5,6 +5,7 @@ import avatar from '../../assets/images/aadi.jpeg';
 import mail_icon from '../../assets/images/icons/mail-icon.png';
 import resume_icon from '../../assets/images/icons/resume-icon.png';
 import resume from "../../assets/documents/Aaditya-Resume-260621.pdf";
+import Zoom from 'react-reveal/Zoom'
 
 function Home() {
 
@@ -14,16 +15,20 @@ function Home() {
         <div className='home-wrapper' id="home">
             <div className='home-image-wrapper'>
                 <img src={avatar} className='home-image' alt='avatar'></img>
-                <div className='home-headers-wrapper-mobile'>
-                    <h1 className='home-header-mobile'>hello!</h1>
-                    <h1 className='home-header-mobile'>i'm aadi.</h1>
-                </div>
+                <Zoom>
+                    <div className='home-headers-wrapper-mobile'>
+                        <h1 className='home-header-mobile'>hello!</h1>
+                        <h1 className='home-header-mobile'>i'm aadi.</h1>
+                    </div>
+                </Zoom>
             </div>
             <div className='home-texts'>
-                <div className='home-headers-wrapper'>
-                    <h1 className='home-header'>hello!</h1>
-                    <h1 className='home-header'>i'm aadi.</h1>
-                </div>
+                <Zoom>
+                    <div className='home-headers-wrapper'>
+                        <h1 className='home-header'>hello!</h1>
+                        <h1 className='home-header'>i'm aadi.</h1>
+                    </div>
+                </Zoom>
                 <p className='home-text'>
                     I am currently pursuing a B.Sc. degree at Yale-NUS College, where I am also the president of {ync_hacks}.
                 </p>
