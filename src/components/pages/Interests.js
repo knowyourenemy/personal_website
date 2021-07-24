@@ -125,7 +125,7 @@ function Interests() {
                 <div className='music-header'>
                     Music
 
-                    <Zoom right duration={1500}>
+                    <Zoom left duration={1500}>
                         <img className='space-music-image' src={space_music} alt='music' />
                     </Zoom>
                 </div>
