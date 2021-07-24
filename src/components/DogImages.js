@@ -1,4 +1,3 @@
-import { blockStatement } from '@babel/types'
 import bear from '../assets/images/interests/dogs/bear.jpeg'
 import beau from '../assets/images/interests/dogs/beau.jpeg'
 import chunma from '../assets/images/interests/dogs/chunma.jpeg'
@@ -34,152 +33,182 @@ export const photos = [
     {
         src: bear,
         width: 4,
-        height: 3
+        height: 3,
+        title: "Bear"
     },
     {
         src: beau,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Beau"
     },
     {
         src: chunma,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Chunma"
     },
     {
         src: chunpa,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Chunpa"
     },
     {
         src: codette,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Codette"
     },
     {
         src: giggles,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Giggles"
     },
     {
         src: groucho,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Groucho"
     },
     {
         src: holly,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Holly and Cody"
     },
     {
         src: hugo,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Hugo"
     },
     {
         src: kangaroo,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Kangaroo"
     },
     {
         src: lion,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Lion"
     },
     {
         src: lucki,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Lucki"
     },
     {
         src: maddie,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Maddie"
     },
     {
         src: moray,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Moray"
     },
     {
         src: patience,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Patience"
     },
     {
         src: puppy,
         width: 4,
-        height: 3
+        height: 3,
+        title: "Puppy"
     },
     {
         src: roxy,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Roxy"
     },
     {
         src: russel,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Russel"
     },
     {
         src: rusty,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Rusty"
     },
     {
         src: skippy,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Skippy"
     },
     {
         src: trips,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Trips"
     },
     {
         src: trooper,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Trooper"
     },
     {
         src: unknown0,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Puppies"
     },
     {
         src: unknown1,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Puppies"
     },
     {
         src: unknown2,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Puppies"
     },
     {
         src: vans,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Vans"
     },
     {
         src: vienna,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Vienna"
     },
     {
         src: violet,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Violet"
     },
     {
         src: wonder,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Wonder"
     },
     {
         src: yaya,
         width: 3,
-        height: 4
+        height: 4,
+        title: "Yaya"
     }
 
 ]
