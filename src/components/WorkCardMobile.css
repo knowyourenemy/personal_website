@@ -1,0 +1,102 @@
+.work-card-mobile-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 60vw;
+  box-sizing: border-box;
+}
+
+.work-card-mobile-upper-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+}
+
+.work-card-mobile-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+  height: 100%;
+}
+
+.work-card-mobile-image {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  object-position: center;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.work-card-mobile-headers {
+  display: flex;
+  flex-direction: column;
+  width: 66.6%;
+  height: 100%;
+  padding-top: 1.5vh;
+  box-sizing: border-box;
+}
+
+.work-card-mobile-header {
+  font-family: Gilroy-Medium;
+  font-size: 7vw;
+  white-space: nowrap;
+}
+
+.work-card-mobile-role {
+  font-family: Gilroy-Medium;
+  font-size: 5vw;
+}
+
+.work-card-mobile-year {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 4vw;
+  font-family: Gilroy-Medium;
+}
+
+.work-card-mobile-badge {
+  width: 7vw;
+  height: 7vw;
+  padding: 1vw 1vw;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: contain;
+  background-color: white;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.work-card-mobile-lower-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.work-card-mobile-description {
+  font-family: Gilroy-Medium;
+  font-size: 4vw;
+  width: 100%;
+  height: fit-content;
+  text-align: justify;
+}
+
+.work-card-mobile-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+  justify-content: space-between;
+  padding-top: 10px;
+}
