@@ -108,4 +108,5 @@
   height: 50%;
   padding-top: 20px;
   justify-content: flex-start;
+  /* justify-content: space-evenly; */
 }

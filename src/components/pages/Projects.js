@@ -41,9 +41,8 @@ function Projects() {
               src={saving_ync_image}
               header="Saving Yale-NUS"
               year="2021"
-              body="A website for students of Yale-NUS College to document their grief over the sudden and unjustified closure of the college"
+              body="A website for students of Yale-NUS College to document their grief over the sudden and unjustified closure of the college."
               projectURL="https://savingyalenus.com/"
-              codeURL="https://github.com/leonardtng/save-ync"
               badges={[html5_icon, tailwind_icon, typescript_icon]}
             />
           </ul>
@@ -145,9 +144,8 @@ function Projects() {
               src={saving_ync_image}
               header="Saving Yale-NUS"
               year="2021"
-              body="A website for students of Yale-NUS College to document their grief over the sudden and unjustified closure of the college"
+              body="A website for students of Yale-NUS College to document their grief over the sudden and unjustified closure of the college."
               projectURL="https://savingyalenus.com/"
-              codeURL="https://github.com/leonardtng/save-ync"
               badges={[html5_icon, tailwind_icon, typescript_icon]}
             />
           </ul>

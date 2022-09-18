@@ -4,7 +4,7 @@ import { Button } from "../Button";
 import avatar from "../../assets/images/aadi.jpeg";
 import mail_icon from "../../assets/images/icons/mail-icon.png";
 import resume_icon from "../../assets/images/icons/resume-icon.png";
-import resume from "../../assets/documents/Aaditya-Resume-080822.pdf";
+import resume from "../../assets/documents/Aaditya-Resume-020922.pdf";
 import Zoom from "react-reveal/Zoom";
 
 function Home() {
