@@ -4,7 +4,9 @@ import "./Projects.css";
 import react_icon from "../../assets/images/icons/reactjs-icon.svg";
 import html5_icon from "../../assets/images/icons/html5-icon.svg";
 import css3_icon from "../../assets/images/icons/css3-icon.svg";
+import docker_icon from "../../assets/images/icons/docker-icon.png";
 import google_maps_icon from "../../assets/images/icons/google-maps-icon.svg";
+import google_cloud_icon from "../../assets/images/icons/google-cloud-icon.png";
 import python_icon from "../../assets/images/icons/python-icon.svg";
 import telegram_icon from "../../assets/images/icons/telegram-icon.svg";
 import java_icon from "../../assets/images/icons/java-icon.svg";
@@ -15,6 +17,8 @@ import processing_icon from "../../assets/images/icons/processing-icon.jpeg";
 import javascript_icon from "../../assets/images/icons/javascript-icon.png";
 import aws_icon from "../../assets/images/icons/aws-icon.png";
 import django_icon from "../../assets/images/icons/django-icon.jpg";
+import express_icon from "../../assets/images/icons/express-icon.png";
+import mongo_icon from "../../assets/images/icons/mongodb-icon.png";
 import tailwind_icon from "../../assets/images/icons/tailwind-icon.png";
 import typescript_icon from "../../assets/images/icons/typescript.png";
 import ballistics_image from "../../assets/images/projects/ballistics.png";
@@ -26,6 +30,7 @@ import personal_website_v1_image from "../../assets/images/projects/personal-web
 import ask_a_dog_image from "../../assets/images/projects/ask-a-dog.png";
 import studio_log_image from "../../assets/images/projects/studio-log.png";
 import saving_ync_image from "../../assets/images/projects/saving-ync.svg";
+import catsofsg_image from "../../assets/images/projects/catsofsg.png";
 import LightSpeed from "react-reveal/LightSpeed";
 
 import CardMobile from "../CardMobile";
@@ -36,6 +41,24 @@ function Projects() {
       <h1 className="projects-header">Projects</h1>
       <div className="cards-container">
         <LightSpeed left>
+          <ul className="cards-row">
+            <Card
+              src={catsofsg_image}
+              header="Cats of SG"
+              year="2023"
+              body="A crowd-sourced map of community cats in Singapore."
+              projectURL="https://catsofsg.com/"
+              codeURL="https://github.com/knowyourenemy/catsofsg-frontend"
+              badges={[
+                react_icon,
+                typescript_icon,
+                express_icon,
+                mongo_icon,
+                google_cloud_icon,
+                docker_icon,
+              ]}
+            />
+          </ul>
           <ul className="cards-row">
             <Card
               src={saving_ync_image}
@@ -139,6 +162,24 @@ function Projects() {
 
       <div className="cards-container-mobile">
         <LightSpeed left>
+          <ul className="cards-row-mobile">
+            <CardMobile
+              src={catsofsg_image}
+              header="Cats of SG"
+              year="2023"
+              body="A crowd-sourced map of community cats in Singapore."
+              projectURL="https://catsofsg.com/"
+              codeURL="https://github.com/knowyourenemy/catsofsg-frontend"
+              badges={[
+                react_icon,
+                typescript_icon,
+                express_icon,
+                mongo_icon,
+                google_cloud_icon,
+                docker_icon,
+              ]}
+            />
+          </ul>
           <ul className="cards-row-mobile">
             <CardMobile
               src={saving_ync_image}

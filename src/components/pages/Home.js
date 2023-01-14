@@ -8,17 +8,6 @@ import resume from "../../assets/documents/Aaditya-Resume-020922.pdf";
 import Zoom from "react-reveal/Zoom";
 
 function Home() {
-  const ploont = (
-    <a
-      href="https://ploont.sg"
-      className="ync-hacks-link"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Ploont
-    </a>
-  );
-
   return (
     <div className="home-wrapper" id="home">
       <div className="home-image-wrapper">
@@ -38,8 +27,8 @@ function Home() {
           </div>
         </Zoom>
         <p className="home-text">
-          I am currently pursuing a B.Sc. degree at Yale-NUS College. I am also
-          the co-founder of {ploont}, an online aroid boutique in Singapore.
+          I study Computer Science at Yale-NUS College, and am currently on
+          exchange at Australian National University.
         </p>
         <div className="home-buttons">
           <Button

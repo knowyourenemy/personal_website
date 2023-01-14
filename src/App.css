@@ -4,7 +4,7 @@
   scroll-margin-top: 8vh;
   color: white;
   margin: 0;
-  -ms-overflow-style: none;  /* IE and Edge */
+  -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
 }
 
@@ -27,10 +27,10 @@ p {
 .main-app {
   display: flex;
   flex-direction: column;
-  background-image: url('assets/images/backgrounds/final-background.png');
+  background-image: url("assets/images/backgrounds/final-background.png");
   background-position: center;
   background-repeat: repeat;
-  
+  overflow-x: hidden;
 }
 
 a:hover {
@@ -41,13 +41,12 @@ a {
   text-decoration: none;
 }
 
-
 @font-face {
-  font-family: 'Gilroy-Bold';
-  src: url('assets/fonts/Gilroy-Bold.ttf');
+  font-family: "Gilroy-Bold";
+  src: url("assets/fonts/Gilroy-Bold.ttf");
 }
 
 @font-face {
-  font-family: 'Gilroy-Medium';
-  src: url('assets/fonts/Gilroy-Medium.ttf');
+  font-family: "Gilroy-Medium";
+  src: url("assets/fonts/Gilroy-Medium.ttf");
 }

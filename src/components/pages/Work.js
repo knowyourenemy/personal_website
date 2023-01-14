@@ -17,10 +17,10 @@ function Work() {
             <WorkCard
               src={ploont_image}
               header="Ploont"
-              year="May 2022 - Present"
+              year="May 2022 - Dec 22"
               role="Co-founder"
               body="Lead the website, logistics, operations, and marketing development of the business."
-              websiteURL="https://ploont.sg/"
+              websiteURL="https://www.instagram.com/ploontsg/"
             />
           </ul>
           <ul className="cards-row">
@@ -51,10 +51,10 @@ function Work() {
             <WorkCardMobile
               src={ploont_image}
               header="Ploont"
-              year="May 2022 - Present"
+              year="May 2022 - Dec 22"
               role="Co-founder"
               body="Lead the website, logistics, operations, and marketing development of the business."
-              websiteURL="https://ploont.sg/"
+              websiteURL="https://www.instagram.com/ploontsg/"
             />
           </ul>
           <ul className="cards-row-mobile">
