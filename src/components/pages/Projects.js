@@ -48,7 +48,7 @@ function Projects() {
               year="2023"
               body="A crowd-sourced map of community cats in Singapore."
               projectURL="https://catsofsg.com/"
-              codeURL="https://github.com/knowyourenemy/catsofsg-frontend"
+              // codeURL="https://github.com/knowyourenemy/catsofsg-frontend"
               badges={[
                 react_icon,
                 typescript_icon,
@@ -75,7 +75,7 @@ function Projects() {
               header="Studio Log"
               year="2021"
               body="A website that allows musicians to keep track of the hours they spend on their instruments. Developed using Django during my summer break in 2021."
-              projectURL="https://studiolog.herokuapp.com"
+              // projectURL="https://studiolog.herokuapp.com"
               codeURL="https://github.com/knowyourenemy/studiolog"
               badges={[django_icon, python_icon]}
             />
@@ -169,7 +169,7 @@ function Projects() {
               year="2023"
               body="A crowd-sourced map of community cats in Singapore."
               projectURL="https://catsofsg.com/"
-              codeURL="https://github.com/knowyourenemy/catsofsg-frontend"
+              // codeURL="https://github.com/knowyourenemy/catsofsg-frontend"
               badges={[
                 react_icon,
                 typescript_icon,
@@ -196,7 +196,7 @@ function Projects() {
               header="Studio Log"
               year="2021"
               body="A website that allows musicians to keep track of the hours they spend on their instruments. Developed using Django during my summer break in 2021."
-              projectURL="https://studiolog.herokuapp.com"
+              // projectURL="https://studiolog.herokuapp.com"
               codeURL="https://github.com/knowyourenemy/studiolog"
               badges={[django_icon, python_icon]}
             />

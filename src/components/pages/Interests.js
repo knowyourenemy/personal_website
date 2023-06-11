@@ -46,7 +46,7 @@ function Interests() {
       concert_image = gnr_concert;
       title = "Guns N Roses - 25 Feb 2017";
       description =
-        "Guns N Roses performed at the Changi Exhibition Centre Singapore as part of their Not in This Lifetime Tour in 2017. I was incredibly fortunate to witness Given Axl Rose, Slash, and Duff McKagan perform together after more than 25 years apart!";
+        "Guns N Roses performed at the Changi Exhibition Centre Singapore as part of their Not in This Lifetime Tour in 2017. I was incredibly fortunate to witness Axl Rose, Slash, and Duff McKagan perform together after more than 25 years apart!";
       name = "Guns N Roses";
     } else if (selectedRecord === "rhcp") {
       record_image = rhcp_record;

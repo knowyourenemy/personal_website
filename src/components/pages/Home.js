@@ -4,7 +4,7 @@ import { Button } from "../Button";
 import avatar from "../../assets/images/aadi.jpeg";
 import mail_icon from "../../assets/images/icons/mail-icon.png";
 import resume_icon from "../../assets/images/icons/resume-icon.png";
-import resume from "../../assets/documents/Aaditya-Resume-020922.pdf";
+import resume from "../../assets/documents/Aaditya-Resume-110623.pdf";
 import Zoom from "react-reveal/Zoom";
 
 function Home() {
@@ -27,8 +27,8 @@ function Home() {
           </div>
         </Zoom>
         <p className="home-text">
-          I study Computer Science at Yale-NUS College, and am currently on
-          exchange at Australian National University.
+          I am a rising senior at Yale-NUS College, where I am majoring in
+          Mathematical, Computational, and Statistical Sciences.
         </p>
         <div className="home-buttons">
           <Button
