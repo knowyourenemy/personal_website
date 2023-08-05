@@ -3,9 +3,8 @@ import "./Home.css";
 import { Button } from "../Button";
 import avatar from "../../assets/images/aadi.jpeg";
 import mail_icon from "../../assets/images/icons/mail-icon.png";
-import resume_icon from "../../assets/images/icons/resume-icon.png";
-import resume from "../../assets/documents/Aaditya-Resume-110623.pdf";
 import Zoom from "react-reveal/Zoom";
+import catsofsg_image from "../../assets/images/projects/catsofsg.png";
 
 function Home() {
   return (
@@ -27,7 +26,7 @@ function Home() {
           </div>
         </Zoom>
         <p className="home-text">
-          I am a rising senior at Yale-NUS College, where I am majoring in
+          I am a senior at Yale-NUS College, where I am majoring in
           Mathematical, Computational, and Statistical Sciences.
         </p>
         <div className="home-buttons">
@@ -41,11 +40,11 @@ function Home() {
           </Button>
           <Button
             className="home-button"
-            src={resume_icon}
+            src={catsofsg_image}
             size="large"
-            url={resume}
+            url="https://catsofsg.com"
           >
-            Resume
+            Latest Project
           </Button>
         </div>
       </div>

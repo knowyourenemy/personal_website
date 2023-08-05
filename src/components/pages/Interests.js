@@ -132,10 +132,8 @@ function Interests() {
           </Zoom>
         </div>
         <div className="music-description">
-          Whether it is the aggressive riffs of Metallica or the dreamy vocals
-          of Radiohead, listening to and playing music is a cathartic experience
-          for me. I have been incredibly fortunate to watch some of my favourite
-          artists perform live—here are some of the most memorable concerts I
+          I have been incredibly fortunate to watch some of my favourite
+          artists perform live. Here are some of the most memorable concerts I
           have attended:
         </div>
         <div className="turntable-container">
@@ -254,10 +252,7 @@ function Interests() {
           </Zoom>
         </div>
         <div className="dogs-description">
-          I am passionate about issues surrounding animal welfare. In my free
-          time, I volunteer at a local dog shelter that rehabilitates and
-          rehomes stray dogs. Here are pictures of some of the dogs I have
-          interactive with:
+          Here are some of the dogs I have interacted with during my time at SOSD Singapore as a shelter volunteer:
         </div>
         <div className="dog-images-container">
           <Gallery

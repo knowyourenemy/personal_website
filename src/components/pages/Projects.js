@@ -19,6 +19,8 @@ import aws_icon from "../../assets/images/icons/aws-icon.png";
 import django_icon from "../../assets/images/icons/django-icon.jpg";
 import express_icon from "../../assets/images/icons/express-icon.png";
 import mongo_icon from "../../assets/images/icons/mongodb-icon.png";
+import squarespace_icon from "../../assets/images/icons/squarespace-icon.png";
+import instagram_icon from "../../assets/images/icons/instagram-icon.png";
 import tailwind_icon from "../../assets/images/icons/tailwind-icon.png";
 import typescript_icon from "../../assets/images/icons/typescript.png";
 import ballistics_image from "../../assets/images/projects/ballistics.png";
@@ -32,6 +34,7 @@ import studio_log_image from "../../assets/images/projects/studio-log.png";
 import saving_ync_image from "../../assets/images/projects/saving-ync.svg";
 import catsofsg_image from "../../assets/images/projects/catsofsg.png";
 import LightSpeed from "react-reveal/LightSpeed";
+import ploont_image from "../../assets/images/projects/ploont.jpg";
 
 import CardMobile from "../CardMobile";
 
@@ -46,7 +49,7 @@ function Projects() {
               src={catsofsg_image}
               header="Cats of SG"
               year="2023"
-              body="A crowd-sourced map of community cats in Singapore."
+              body="A website advocating for community cats in Singapore."
               projectURL="https://catsofsg.com/"
               // codeURL="https://github.com/knowyourenemy/catsofsg-frontend"
               badges={[
@@ -57,6 +60,16 @@ function Projects() {
                 google_cloud_icon,
                 docker_icon,
               ]}
+            />
+          </ul>
+          <ul className="cards-row">
+            <Card
+              src={ploont_image}
+              header="Ploont"
+              year="2022"
+              body="An online plant shop specialising in aroids. Closed down in December 2022"
+              projectURL="https://www.instagram.com/ploontsg/"
+              badges={[squarespace_icon, instagram_icon]}
             />
           </ul>
           <ul className="cards-row">
@@ -167,7 +180,7 @@ function Projects() {
               src={catsofsg_image}
               header="Cats of SG"
               year="2023"
-              body="A crowd-sourced map of community cats in Singapore."
+              body="A website advocating for community cats in Singapore."
               projectURL="https://catsofsg.com/"
               // codeURL="https://github.com/knowyourenemy/catsofsg-frontend"
               badges={[
@@ -178,6 +191,16 @@ function Projects() {
                 google_cloud_icon,
                 docker_icon,
               ]}
+            />
+          </ul>
+          <ul className="cards-row-mobile">
+            <CardMobile
+              src={ploont_image}
+              header="Ploont"
+              year="2022"
+              body="An online plant shop specialising in aroids. Closed down in December 2022."
+              websiteURL="https://www.instagram.com/ploontsg/"
+              badges={[squarespace_icon, instagram_icon]}
             />
           </ul>
           <ul className="cards-row-mobile">
